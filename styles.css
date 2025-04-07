@@ -1,0 +1,461 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #d69438;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons button {
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+#hero {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    text-align: left;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 20px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.hero-content img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 500px;
+}
+
+.hero-text p {
+    margin: 0 0 1rem 0;
+    color: black;
+}
+
+#hero button {
+    padding: 0.5rem 1rem;
+    background: #F39C12; /* Теплый оранжевый */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#hero button:hover {
+    background: #E08E0B; /* Чуть темнее оранжевый */
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tour-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 300px;
+    text-align: left;
+}
+
+.tour-card .price {
+    font-weight: bold;
+    color: #F39C12; /* Акцентный оранжевый */
+}
+
+.tour-card button {
+    background: #4A90E2; /* Современный синий */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.tour-card button:hover {
+    background: #357ABD; /* Темнее при наведении */
+}
+
+#about .about-tours {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+#about .tour-option {
+    width: 300px;
+    text-align: center;
+}
+
+#about .image-container {
+    position: relative;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#about .tour-option img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+#about .tour-text {
+    padding: 1rem 0;
+}
+
+#about .tour-text p:first-child {
+    font-weight: bold;
+    margin: 0 0 0.5rem;
+}
+
+#about .tour-text p:nth-child(2) {
+    margin: 0 0 1rem;
+}
+
+#about .tour-text button {
+    background: #4A90E2; /* Современный синий */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#about .tour-text button:hover {
+    background: #357ABD; /* Темнее при наведении */
+}
+
+#testimonials .operators {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+#testimonials .operator {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 400px;
+}
+
+#testimonials .operator img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#testimonials .operator .operator-text {
+    text-align: left;
+}
+
+#testimonials .operator h3 {
+    margin: 0 0 0.5rem;
+}
+
+#testimonials .operator p {
+    margin: 0.5rem 0;
+}
+
+#testimonials .operator a {
+    color: #4A90E2; /* Современный синий */
+    text-decoration: none;
+}
+
+#testimonials .operator a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#contact p {
+    margin-bottom: 1.5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    background: #34495E; /* Глубокий серо-синий */
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #2C3E50; /* Темнее при наведении */
+}
+
+footer {
+    background: #34495E; /* Глубокий серо-синий */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#upcoming-tours {
+    padding: 2rem;
+    text-align: center;
+}
+
+#upcoming-tours h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#upcoming-tours p {
+    margin-bottom: 1.5rem;
+}
+
+.tour-list-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tour-item {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tour-item h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.tour-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#traveler-reviews {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ECF0F1; /* Светло-серый */
+    position: relative;
+}
+
+#traveler-reviews h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.reviews-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.review-item {
+    flex: 0 0 auto;
+    background: white;
+    padding: 1.5rem;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.review-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.review-item p:first-of-type {
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.review-item h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    color: #4A90E2; /* Современный синий */
+}
+
+.review-item p:last-of-type {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+    word-wrap: break-word;
+}
+
+.slider-prev, .slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #4A90E2; /* Современный синий */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.slider-prev {
+    left: 1rem;
+}
+
+.slider-next {
+    right: 1rem;
+}
+
+.slider-prev:hover, .slider-next:hover {
+    background: #357ABD; /* Темнее при наведении */
+}
